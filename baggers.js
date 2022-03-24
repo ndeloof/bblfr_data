@@ -790,7 +790,7 @@ var data = {
     {
       since: '2013-02-25',
       name: 'Nicolas De Loof',
-      bio: 'Developer Advocate chez CloudBees',
+      bio: 'Staff Software Engineer chez Docker',
       picture: 'img/baggers/photo_NicolasDeLoof.jpg',
       websites: [
         {
@@ -799,16 +799,23 @@ var data = {
         },
         {
           name: 'Web',
-          url: 'http://www.cloudbees.com',
+          url: 'http://www.docker.com',
         },
       ],
       location: 'Rennes et alentours, possibilités sur Paris',
       sessions: [
         {
-          title: 'Jenkins X: toward a Cloud-native Jenkins',
+          title: 'De Fig à Docker <espace> Compose',
           abstract:
-            "L'architecture de Jenkins date de 10 ans. C'est ce qui a permis de construire un écosystème gigantesque et de couvrir les besoins de tout le monde avec une flexibilité extrême. En assurant la compatibilité ascendante, Jenkins s'interdit-il d'évoluer pour embracer les paradigmes modernes ? On pourrait le croire, sauf que ... Jenkins-X!",
-          tags: ['Cloud', 'Jenkins', 'Kubernetes'],
+            "Docker Compose est l'un des outils préféré dans la toolbox Docker, et pourant est longtemps resté à la traine. Voyons ensemble la renaissance du projet qui fut longtemps le vilain petit canard",
+          tags: ['Cloud', 'Container', 'Docker'],
+          lang: ['fr'],
+        },
+        {
+          title: 'Tout ce que vous avez toujours voulu savoir sur Docker sans jamais oser le demander',
+          abstract:
+            "Session Q&A à votre bon vouloir",
+          tags: ['Cloud', 'Container', 'Docker'],
           lang: ['fr'],
         },
       ],
